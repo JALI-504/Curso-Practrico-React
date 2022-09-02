@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --white: #FFF;
+            --black: #000;
+            --very-light-pink: #c7c7c7;
+            --text-input-field: #f7f7f7; 
+            --hospital-green: #ACD9B2;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body{
+            margin: 0;
+            font-family: 'Quicksand',sans-serif;
+        }
+
+        .menu-main{
+            padding: 24px;
+        }
+        .menu-main a{
+            text-decoration: none;
+            color: var(--black);
+            font-weight: bold;
+            /* margin-bottom: 24px; */
+        }
+        .menu-main ul{
+            padding: 0;
+            margin: 24px 0 0;
+            list-style: none;
+            margin-bottom: 60px;
+        }
+        .menu-main ul:nth-child(1),
+        .menu-main ul:nth-child(2){
+            border-bottom:  1px solid var(--very-light-pink);
+           
+        }
+        .menu-main ul li{
+            margin-bottom: 24px;
+        }
+        .email{
+            font-size: var(--sm);
+            font-weight: 300px !important;
+        }
+        .sign-out{
+            color: var(--hospital-green) !important;
+            font-size: var(--sm);
+        }
+        /* hr{
+            background-color: var();
+        } */
+    </style>
+</head>
+<body>
+    <div class="menu-main">
+        <ul>
+            <li>
+                <a href="">CATEGORIAS</a>
+            </li>
+            <li>
+                <a href="">TODO</a>
+            </li>
+            <li>
+                <a href="">ROPA</a>
+            </li>
+            <li>
+                <a href="">ELECTÓNICA</a>
+            </li>
+            <li>
+                <a href="">MUEBLES</a>
+            </li>
+            <li>
+                <a href="">JUGUETES</a>
+            </li>
+            <li>
+                <a href="">OTROS</a>
+            </li>
+        </ul>
+        <!-- <hr> -->
+        <ul>
+            <li>
+                <a href="">Mis Ordenes</a>
+            </li>
+            <li>
+                <a href="">Mi Cuenta</a>
+            </li>
+        </ul>
+        <!-- <hr> -->
+        <ul>
+            <li>
+                <a href="" class="email">armando@gmail.com</a>
+            </li>
+            <li>
+                <a href="" class="sign-out">Sign Out</a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
