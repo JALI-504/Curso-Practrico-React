@@ -1,11 +1,13 @@
 import React from 'react';
 import '../styles/Login.scss';
 
+import logo from '@logos/logo_yard_sale.svg';
+
 const Login = () => {
     return (
         <div className="login">
         <div className="contenedor-formulario">
-            <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo"/>
+            <img src={logo} alt="logo" class="logo"/>
             <form action="/" class="formulario">
                 <label for="email" class="label">Direccion de Email</label>
                 <input type="text" id="email" placeholder="Ingrese su correo electrónico" class="input input-email"/>

@@ -1,11 +1,13 @@
 import React from 'react';
 import '../styles/Newpass.scss';
 
+import logo from '@logos/logo_yard_sale.svg';
+
 const NewPass = () => {
     return (
         <div className="login">
         <div className="contenedor-formulario">
-            <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo"/>
+            <img src={logo} alt="logo" className="logo"/>
             <h1 className="titulo">Crea una nueva contraseña:</h1>
             <p className="subtitulo">Introduce una contrasela para tu cuenta</p>
             <form action="/" className="formulario">
