@@ -1,9 +1,11 @@
 import React from 'react';
+import ProductItem from '../components/ProductItem';
+import '../styles/ProductList.scss';
 
 const ProductList = () => {
     return (
-        <section className="main-container">
-			<div className="ProductList">
+        <section className="ProductList">
+			<div className="ProductList-div">
 				<ProductItem />
 			</div>
 		</section>

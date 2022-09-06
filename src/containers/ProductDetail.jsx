@@ -4,8 +4,8 @@ import '../styles/ProductDetail.scss';
 
 const ProductDetail = () => {
     return (
-        <aside className="product-detalle">
-        <div className="product-detalle-close">
+        <aside className="ProductDetail">
+        <div className="ProductDetail-close">
             <img src="./icons/icon_close.png" alt="close"/>
         </div>    
         <ProductInfo />

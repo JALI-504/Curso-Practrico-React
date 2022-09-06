@@ -3,7 +3,7 @@ import "../styles/ProductItem";
 
 const ProductItem = () => {
     return (
-        <div className="product-card">
+        <div className="ProductItem">
                <img src="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt=""/>
                 <div className="product-info">
                     <div>

@@ -3,7 +3,7 @@ import "../styles/OrderItem.scss";
 
 const OrderItem = () => {
     return (
-        <div className="shop-card">
+        <div className="OrderItem">
         <figure>
             <img src="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="bicicleta"/>
         </figure>

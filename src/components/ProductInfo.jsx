@@ -3,8 +3,8 @@ import '../styles/ProductInfo.scss';
 
 const ProductInfo = () => {
     return (
-        <aside className="product-detalle">
-        <div className="product-detalle-close">
+        <aside className="ProductInfo">
+        <div className="ProductInfo-close">
             <img src="./icons/icon_close.png" alt="close"/>
         </div>    
         <img src="https://images.pexels.com/photos/100582/pexels-photo-100582.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="bicicleta"/>
