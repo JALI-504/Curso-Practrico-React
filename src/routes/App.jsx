@@ -13,6 +13,7 @@ import Order from '../pages/Order';
 import NotFound from '../pages/NotFound';
 
 import '../styles/global.css';
+import ProductItem from "../components/ProductItem";
 
 
 
@@ -32,6 +33,7 @@ import '../styles/global.css';
 					<Route exact path="/crearcuenta" element={<CrearCuenta />} />
 					<Route exact path="/checkout" element={<Checkout />} />
 					<Route exact path="/order" element={<Order />} />
+                    <Route exact path="/productitem" element={<ProductItem />} />
 					<Route path="*" element={<NotFound />} />      
             </Routes>   
         </Layout>
