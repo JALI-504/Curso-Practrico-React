@@ -1,6 +1,7 @@
 import React from "react";
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import Layout from '../containers/Layout';
+import ProducItem from "../components/ProducItem";
 import Home from '../pages/Home';
 import Login from '../pages/Login';
 import RecuperarPass from '../pages/RecuperarPass';
@@ -9,11 +10,13 @@ import NewPass from '../pages/NewPass';
 import MiCuenta from "../pages/MiCuenta";
 import CrearCuenta from "../pages/CrearCuenta";
 import Checkout from '../pages/Checkout';
-import Order from '../pages/Order';
+import Order from '../components/Order';
+import Orders from '../pages/Orders';
+
 import NotFound from '../pages/NotFound';
 
 import '../styles/global.css';
-import ProductItem from "../components/ProductItem";
+
 
 
 
@@ -33,7 +36,8 @@ import ProductItem from "../components/ProductItem";
 					<Route exact path="/crearcuenta" element={<CrearCuenta />} />
 					<Route exact path="/checkout" element={<Checkout />} />
 					<Route exact path="/order" element={<Order />} />
-                    <Route exact path="/productitem" element={<ProductItem />} />
+					<Route exact path="/orders" element={<Orders />} />
+                    <Route exact path="/producitem" element={<ProducItem />} />
 					<Route path="*" element={<NotFound />} />      
             </Routes>   
         </Layout>

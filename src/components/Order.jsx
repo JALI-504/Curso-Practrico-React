@@ -1,12 +1,12 @@
 import React from 'react';
-import '../styles/Order.scss';
+import '@styles/Order.scss';
 
 import arrow from '@icons/flechita.svg';
 
 
 const Order = () => {
     return (
-        <div className="order">
+        <div className="Order">
         <p>
             <span>11/05/2022</span>
             <span>6 articulos</span>

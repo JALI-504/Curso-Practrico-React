@@ -1,6 +1,6 @@
 import React from 'react';
-import OrderItem from '../components/OrderItem';
-import '../styles/MyOrder.scss';
+import OrderItem from '@components/OrderItem';
+import '@styles/MyOrder.scss';
 
 
 import arrow from '@icons/flechita.svg';
@@ -8,13 +8,13 @@ import addCart from '@icons/bt_add_to_cart.svg';
 
 const MyOrder = () => {
     return (
-        <aside className="product-detalle">
-        <div className="titulo-conteiner">
+        <aside className="MyOrder">
+        <div className="title-container">
             <img src={arrow} alt="flechita"/>
-            <p className="titulo">Mi Orden</p>
+            <p className="title">Mi Orden</p>
         </div>
     
-        <div className="my-order-container">  
+        <div className="my-order-content">  
         <OrderItem />
                 <div className="order">
                     <p>
@@ -23,7 +23,7 @@ const MyOrder = () => {
                     <p>L. 9,000.00</p>
                 </div>
 
-                <button className="primary-button add-cart">
+                <button className="primary-button">
                     <img src={addCart} alt="add to cart"/>
                     Agregar al Carrito
                 </button>

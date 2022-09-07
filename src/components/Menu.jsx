@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/Menu.scss';
+import '@styles/Menu.scss';
 
 const Menu = () => {
     return (
-        <div className="menu-escritorio">
+        <div className="Menu">
         <ul>
             <li>
                 <a href="/" className="titulo">Mis Ordenes</a>

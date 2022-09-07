@@ -3,7 +3,7 @@ import '../styles/RecuperarPass.scss';
 
 import logo from '@logos/logo_yard_sale.svg';
 
-const RecuperarPass = () => {
+const PasswordRecovery = () => {
     return (
         <div className="PasswordRecovery">
         <div className="PasswordRecovery-container">
@@ -20,4 +20,4 @@ const RecuperarPass = () => {
     );
 }
 
-export default RecuperarPass;
+export default PasswordRecovery;
