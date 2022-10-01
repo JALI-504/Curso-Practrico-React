@@ -5,7 +5,6 @@ import AppContext from '../context/AppContext';
 import addCart from '@icons/bt_add_to_cart.svg';
 
 const ProducItem = ({product}) => {
-	
 	const { addToCart } = useContext(AppContext);
 
 	const handleClick = item => {
@@ -15,14 +14,14 @@ const ProducItem = ({product}) => {
 	return (
 		
 		<div className="ProductItem">
-			<img src={product.images[0]} alt="product.title" />
+			<img src={product.images[0]} alt={product.title} />
 			<div className="product-info">
 				<div>
 					<p>${product.price}</p>
 					<p>{product.title}</p>
 				</div>
 				<figure onClick={() => handleClick(product)} >
-					<img src={addCart} alt="addCart" />
+					<img src={addCart} alt="" />
 				</figure>
 			</div>
 		</div>
